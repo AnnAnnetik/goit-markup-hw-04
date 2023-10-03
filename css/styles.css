@@ -165,7 +165,7 @@ h1 {
   padding: 16px 32px;
   min-width: 169px;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -289,7 +289,7 @@ h1 {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .container-portfolio {
@@ -391,9 +391,6 @@ h1 {
   width: 40px;
   height: 40px;
 }
-.soc-list .team-soc-link {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .soc-icon {
   margin-left: 120px;
@@ -403,4 +400,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+.footer .team-soc-link:hover {
+  background-color: #31d0aa;
 }
