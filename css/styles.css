@@ -205,14 +205,7 @@ h1 {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.advantages-icon {
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
 
-  width: 264px;
-
-  flex-shrink: 0;
-  padding: 24px;
-}
 .main-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -318,8 +311,8 @@ h1 {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.portfolio-item:hover .div-portfolio-cover {
-  transform: translateY(0);
+.portfolio-item:hover .portfolio-cover-text {
+  transform: translateY(0%);
 }
 
 .div-portfolio {
@@ -343,8 +336,7 @@ h1 {
   padding: 40px 32px;
   background-color: #4d5ae5;
   transform: translateY(100%);
-  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--CLOUD, #f4f4fd);
   top: 0;
   font-size: 16px;
