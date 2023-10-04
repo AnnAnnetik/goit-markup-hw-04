@@ -123,7 +123,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/back/people-office.jpg), url(/images/back/Dark-bg.jpg);
+    url(../images/back/people-office.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -402,5 +402,8 @@ h1 {
   gap: 16px;
 }
 .footer .team-soc-link:hover {
+  background-color: #31d0aa;
+}
+.footer .team-soc-link:focus {
   background-color: #31d0aa;
 }
